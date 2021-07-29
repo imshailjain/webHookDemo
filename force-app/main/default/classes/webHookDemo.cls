@@ -23,7 +23,7 @@ global with sharing class webHookDemo {
 
                     GitHubPushDetail__c detail = new GitHubPushDetail__c();
                     detail.CommitterName__c = ps!=null?ps.name:'';
-                    detail.CommitterEmail__c =ps!=null?ps.email:'';
+                   // detail.CommitterEmail__c =ps!=null?ps.email:'';
                     
                     insert detail;
                    
