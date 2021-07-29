@@ -5,8 +5,6 @@ global with sharing class webHookDemo {
         try {
                RestRequest request = RestContext.request;
                RestResponse response = RestContext.response;
-
-
         } catch (Exception e) {
             System.debug('Excepton has comes ' + e.getMessage());
         }
