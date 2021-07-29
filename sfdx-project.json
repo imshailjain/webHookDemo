@@ -1,0 +1,12 @@
+{
+  "packageDirectories": [
+    {
+      "path": "force-app",
+      "default": true
+    }
+  ],
+  "name": "ShaileshProject",
+  "namespace": "",
+  "sfdcLoginUrl": "https://creative-badger-1djmxa-dev-ed.lightning.force.com",
+  "sourceApiVersion": "52.0"
+}
